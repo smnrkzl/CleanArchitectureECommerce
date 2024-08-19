@@ -4,10 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace CleanArchitecture.Domain.Abstractions
+namespace CleanArchitecture.Application.Features.CategoryFeatures.Command.Update
 {
-    public class Entity
+    internal class UpdateCategoryCommandRequest
     {
-        public Guid Id { get; set; }
     }
 }
